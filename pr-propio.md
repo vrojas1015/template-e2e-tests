@@ -1,6 +1,6 @@
-## Qué cambia
-
-<!-- Una o dos líneas. Issue en docs: Closes #<n> / issue <n>. -->
+- [ ] `npm run typecheck` y `npm run listar`
+- [ ] `E2E_AMBIENTE=<local|qa> npm run e2e` en verde (o el subconjunto: `npm run e2e -- --grep @CU-…`)
+- [ ] Si toca robustez o carga: `npm run robustez` / `npm run carga`
 
 ## Escenarios cubiertos
 
@@ -8,13 +8,7 @@
 
 - [ ] `@CU-<issue>-<n>`: …
 
-## Cómo se probó
-
-- [ ] `npm run typecheck` y `npm run listar`
-- [ ] `E2E_AMBIENTE=<local|qa> npm run e2e` en verde (o el subconjunto: `npm run e2e -- --grep @CU-…`)
-- [ ] Si toca robustez o carga: `npm run robustez` / `npm run carga`
-
-## Checklist
+## Checklist de pruebas
 
 - [ ] Cada test nuevo lleva `@CU-…` (si cubre un escenario) y `@smoke` o `@regresion`
 - [ ] Los datos son sintéticos y llevan el prefijo de la corrida (`datos.nombre(...)`); nada de datos reales ni personales
